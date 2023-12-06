@@ -1,4 +1,18 @@
 <?php
+
+// Mensajes de depuración
+echo "Nombre: " . $nombre . "<br>";
+echo "Email: " . $email . "<br>";
+// ... otros campos ...
+
+// Ejecutar la consulta SQL
+if ($conn->query($sql) === TRUE) {
+    echo "Registro insertado correctamente";
+} else {
+    echo "Error al insertar el registro: " . $conn->error;
+}
+
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Recibir datos del formulario
     $nombre = $_POST["nombre"];
