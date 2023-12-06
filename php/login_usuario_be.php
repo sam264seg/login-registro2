@@ -5,6 +5,11 @@ include 'conexion_be.php';
 
 $email = $_POST['email'];
 $contrasena = $_POST['contrasena'];
+<<<<<<< HEAD
+=======
+//encriptacion de contraseña
+//$contrasena= hash('sha512',$contrasena);
+>>>>>>> fe071fdf82981c7a786c970393c9fa57446af9e0
 
 $validar_login = mysqli_query($conexion,"SELECT * FROM usuarios WHERE email='$email' and contrasena= '$contrasena'");
 

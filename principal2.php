@@ -50,7 +50,11 @@ if (!isset($_SESSION["usuario"])) {
           <li class="nav-menu-item">
             <a href="#" class="nav-menu-link nav-link">AIP</a>
             <div class="nav-menu-item-content">
+<<<<<<< HEAD
               <a href="donacion.php"> donacion</a>
+=======
+              <a href="#aip-section">donacion</a>
+>>>>>>> fe071fdf82981c7a786c970393c9fa57446af9e0
               <a href="#mision-section">volutario</a>
               <a href="#mision-section">proyectos</a>
               <a href="#mision-section">eventos</a>
