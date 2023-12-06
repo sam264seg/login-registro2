@@ -37,6 +37,8 @@
     <button id="submitDonation">Generar Recibo</button>
   </div>
 
+
+
   <!-- Historial de Donaciones -->
   <div class="history-section">
     <h2>Historial de Donaciones</h2>
@@ -62,11 +64,9 @@
     </div>
     <button id="manageCampaigns">Crear/Actualizar Campaña</button>
   </div>
+  
+  <button onclick="window.location.href='principal2.php';" class="btn-regresar">regresar</button>
+
 </div>
-
-<script>
-  // Aquí iría el JavaScript para manejar eventos y conectarse con el back-end
-</script>
-
 </body>
 </html>

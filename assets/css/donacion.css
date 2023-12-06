@@ -99,4 +99,8 @@ input[type="text"]:focus {
 }
 
 /* Más estilos para botones */
-/* ... (inserta aquí cualquier otro estilo adicional para botones que hayas proporcionado) */
+.btn-regresar {
+  /* Tus otros estilos... */
+  margin-top: 20px; /* Ajusta este valor según necesites para aumentar el espacio */
+}
+

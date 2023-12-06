@@ -1,0 +1,99 @@
+body {
+    background-image: url(../imagenes/portada.webp); /* Imagen de fondo */
+    background-size: cover; /* La imagen de fondo cubre todo el espacio disponible */
+    background-repeat: no-repeat; /* La imagen de fondo no se repite */
+    background-position: center; /* La imagen de fondo está centrada */
+    background-attachment: fixed; /* La imagen de fondo es fija en la ventana de visualización */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Tipo de fuente para el texto */
+    background-color: #333; /* Color de fondo oscuro */
+    color: #444; /* Color de texto gris claro */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con transparencia */
+    backdrop-filter: blur(10px); /* Efecto difuminado para el fondo (opcional) */
+}
+
+h2 {
+    border-bottom: 2px solid #4CAF50;
+    color: #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Added for box-sizing */
+}
+
+textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    display: block; /* Hace que el botón ocupe su propia línea */
+    margin-left: 0; /* Junto con margin-right: auto, centra el botón */
+    margin-right: 0;
+
+    margin-top: 20px; /* Espacio por encima del botón */
+    margin-bottom: 20px; /* Espacio por debajo del botón */
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Clear floats */
+.form-group::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-regresar {
+    background-color: #45a049; /* Color de fondo rojo */
+    color: white; /* Color de texto blanco */
+    padding: 10px 20px; /* Relleno alrededor del texto */
+    border: none; /* Sin borde */
+    border-radius: 100px; /* Bordes redondeados */
+    text-align: center; /* Texto centrado */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Asegura que se comporte como un enlace */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin: 4px 2px; /* Margen alrededor del botón */
+    cursor: pointer; /* Cursor en forma de mano al pasar sobre el botón */
+    transition: background-color 0.3s; /* Efecto de transición para el fondo */
+}
+
+.btn-regresar:hover {
+    background-color: #554c4c; /* Color de fondo más oscuro al pasar el cursor sobre el botón */
+}
+

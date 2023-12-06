@@ -50,13 +50,9 @@ if (!isset($_SESSION["usuario"])) {
           <li class="nav-menu-item">
             <a href="#" class="nav-menu-link nav-link">AIP</a>
             <div class="nav-menu-item-content">
-<<<<<<< HEAD
               <a href="donacion.php"> donacion</a>
-=======
-              <a href="#aip-section">donacion</a>
->>>>>>> fe071fdf82981c7a786c970393c9fa57446af9e0
-              <a href="#mision-section">volutario</a>
-              <a href="#mision-section">proyectos</a>
+              <a href="voluntario.php">volutario</a>
+              <a href="proyectos.php">proyectos</a>
               <a href="#mision-section">eventos</a>
             <!--  <a href="#colaboradores-section">accionista</a>-->
             </div>
@@ -202,7 +198,7 @@ if (!isset($_SESSION["usuario"])) {
       </div>
     </section>
 
-    <!--clientes comentarios-->
+    <!--clientes comentarios
     <section class="clientes contenedor">
       <h2 class="titulo">Que dicen nuestros clientes</h2>
       <div class="cards">
@@ -221,7 +217,7 @@ if (!isset($_SESSION["usuario"])) {
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
 
     <section class="about-services">
@@ -230,18 +226,22 @@ if (!isset($_SESSION["usuario"])) {
         <div class="servicio-cont">
           <div class="servicio-ind">
             <img src="assets/imagenes/ilustracion1.svg" alt="">
-            <h3>Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
+            <h3>Educación y Capacitación: </h3>
+            <p>Establecimiento y mantenimiento de escuelas públicas, programas de educación para
+              adultos, y capacitaciones profesionales para mejorar las habilidades laborales de 
+              la población.</p>
           </div>
           <div class="servicio-ind">
             <img src="assets/imagenes/ilustracion4.svg" alt="">
-            <h3>Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
+            <h3>Servicios Sociales:</h3>
+            <p>Programas de ayuda para personas en situación de vulnerabilidad, como servicios de 
+              asistencia a personas mayores, niños, y personas con discapacidades.</p>
           </div>
           <div class="servicio-ind">
             <img src="assets/imagenes/ilustracion3.svg" alt="">
-            <h3>Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
+            <h3>Desarrollo Económico: </h3>
+            <p>Apoyo a pequeñas y medianas empresas, fomento del turismo, y atracción de 
+              inversiones que generen empleo.</p>
           </div>
         </div>
       </div>
@@ -252,15 +252,15 @@ if (!isset($_SESSION["usuario"])) {
   <footer>
     <div class="contenedor-footer">
       <div class="content-foo">
-        <h4>Phone</h4>
+        <h4>numero de telefono</h4>
         <p>1234-7896</p>
       </div>
       <div class="content-foo">
-        <h4>Email</h4>
+        <h4>correo</h4>
         <p>AIP2609@GMAIL.COM</p>
       </div>
       <div class="content-foo">
-        <h4>Location</h4>
+        <h4>Locaciòn</h4>
         <p>CIUDAD DE PANAMA</p>
       </div>
     </div>
