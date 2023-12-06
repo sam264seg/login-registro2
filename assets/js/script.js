@@ -60,6 +60,8 @@ function register() {
     }
 }
 
+<<<<<<< HEAD
+=======
 document.addEventListener('DOMContentLoaded', function () {
 
     // Manejar el envío del formulario de donaciones
@@ -116,3 +118,4 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log('Cargar datos iniciales...');
   });
   
+>>>>>>> d6d333c3d059e50f084fc91caa5b9e6cc0b58743
