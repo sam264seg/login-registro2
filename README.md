@@ -2,7 +2,7 @@
 ### Esta pagina se basa en realizar proyectos en beneficio de la sociedad Panameña 
 
 
-Barra de Navegación
+## Barra de Navegación
 Bienvenido al Manual de Usuario de la Barra de Navegación de la Asociación de Interés Público (AIP). Esta guía te ayudará a navegar por las diferentes secciones y opciones disponibles en la barra de navegación de nuestra plataforma.
 
 Contenido
