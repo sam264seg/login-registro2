@@ -1,3 +1,3 @@
 <?php
-$conexion = mysqli_connect("localhost", "root", "", "login_registro_db",'3306');
+$conexion = mysqli_connect("localhost", "root", "", "entregable3",'3306');
 ?>
