@@ -59,3 +59,60 @@ function register() {
         caja_trasera_login.style.opacity = "1";
     }
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+
+    // Manejar el envío del formulario de donaciones
+    document.getElementById('submitDonation').addEventListener('click', function (event) {
+      event.preventDefault();
+  
+      const donorName = document.getElementById('donorName').value;
+      const donorAmount = document.getElementById('donorAmount').value;
+      const donationDate = document.getElementById('donationDate').value;
+  
+      if (!donorName || donorAmount <= 0 || !donationDate) {
+        alert('Por favor, completa todos los campos correctamente.');
+        return;
+      }
+  
+      // Aquí iría el código para enviar los datos al servidor
+      console.log('Donación registrada:', { donorName, donorAmount, donationDate });
+      alert('Recibo generado para ' + donorName);
+  
+      // Limpiar formulario
+      document.getElementById('donorName').value = '';
+      document.getElementById('donorAmount').value = '';
+      document.getElementById('donationDate').value = '';
+    });
+  
+    // Manejar la visualización del historial de donaciones
+    document.getElementById('viewHistory').addEventListener('click', function (event) {
+      event.preventDefault();
+  
+      const selectedMember = document.getElementById('memberSelect').value;
+  
+      // Aquí iría el código para recuperar y mostrar el historial de donaciones del miembro seleccionado
+      console.log('Mostrar historial para el miembro:', selectedMember);
+    });
+  
+    // Manejar la creación o actualización de campañas
+    document.getElementById('manageCampaigns').addEventListener('click', function (event) {
+      event.preventDefault();
+  
+      const campaignName = document.getElementById('campaignName').value;
+      const campaignGoal = document.getElementById('campaignGoal').value;
+  
+      if (!campaignName || campaignGoal <= 0) {
+        alert('Por favor, introduce un nombre válido para la campaña y una meta de recaudación positiva.');
+        return;
+      }
+  
+      // Aquí se enviarían los datos de la campaña al servidor
+      console.log('Campaña creada/actualizada:', { campaignName, campaignGoal });
+    });
+  
+    // Cargar datos iniciales, como la lista de miembros
+    // Aquí iría el código para cargar datos del servidor
+    console.log('Cargar datos iniciales...');
+  });
+  
