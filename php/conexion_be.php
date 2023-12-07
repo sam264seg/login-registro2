@@ -1,8 +1,9 @@
 <?php
- $conexion = mysqli_connect("localhost", "root","","login_registro_db");
- /*if($conexion){
-    echo 'conexcion exitosa con la base de datos';
- }else{
-    echo 'no se ha podido conectar con la base de datos';
- }*/
+$conexion = mysqli_connect("localhost", "root", "", "login_registro_db",'3306');
+/*
+if($conexion){
+echo 'conectado exitosamente a la base de Datos';
+}else{
+echo 'no se a conectado a la base de datos';
+}*/
 ?>
