@@ -7,6 +7,9 @@
 -IDE(visual studio code) opcional
 -Bases de datos Mysql (phpmyadmin)
 
+### Instalación
+![image](https://github.com/sam264seg/login-registro2/assets/125157739/8d26dfb6-92fc-40de-9a22-16eeb3b382a2)
+
 
 ## Barra de Navegación
 Bienvenido al Manual de Usuario de la Barra de Navegación de la Asociación de Interés Público (AIP). Esta guía te ayudará a navegar por las diferentes secciones y opciones disponibles en la barra de navegación de nuestra plataforma.
