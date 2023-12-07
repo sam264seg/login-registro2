@@ -9,6 +9,10 @@
 
 ### Instalación
 ![image](https://github.com/sam264seg/login-registro2/assets/125157739/8d26dfb6-92fc-40de-9a22-16eeb3b382a2)
+Abre XAMPP y asegúrate de seguir estos pasos:
+- Inicia XAMPP desde el menú de inicio o el acceso directo en tu escritorio.
+- En el panel de control de XAMPP, busca y asegúrate de que los servicios de Apache y MySQL estén marcados como "Running" o "Iniciado".
+
 
 
 ## Barra de Navegación
