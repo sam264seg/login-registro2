@@ -6,7 +6,10 @@
 <title>Publicar Oportunidad de Voluntariado</title>
 </head>
 <body>
+<<<<<<< HEAD
 
+=======
+>>>>>>> e6e0b5ad315fcc9ec424b8e8ec128fa5c6649797
     <div class="container">
     <div class="oportunidad_voluntariado">
     <h1>Publicar Oportunidad de Voluntariado</h1>
@@ -29,9 +32,12 @@
     </div>
         <input type="submit" value="Publicar">
     </div>
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> e6e0b5ad315fcc9ec424b8e8ec128fa5c6649797
     <div class="Aplicar-section">
     <h2>Aplicar para ser Voluntario</h2>
     <div class="form-group">
@@ -49,9 +55,12 @@
         <input type="submit" value="Enviar Aplicación">
     </div>
     <div class="turnos-voluntariado">
+<<<<<<< HEAD
 
 
     
+=======
+>>>>>>> e6e0b5ad315fcc9ec424b8e8ec128fa5c6649797
     <h1>Registro de Turnos para Voluntarios</h1>
       <div class="form-group">
       <label for="fecha">Fecha:</label>

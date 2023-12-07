@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="assets/css/donacion.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+=======
+<script src="registro_donaciones.js"></script>
+>>>>>>> e6e0b5ad315fcc9ec424b8e8ec128fa5c6649797
 <title>Gestión de Donaciones y Financiamiento</title>
 </head>
 <body>
@@ -11,6 +15,7 @@
 <div class="container">
   <h1>Gestión de Donaciones y Financiamiento</h1>
   
+<<<<<<< HEAD
   <!-- Registro de Donaciones -->
   <div class="donation-registration">
     <h2>Registro de Donaciones</h2>
@@ -29,13 +34,41 @@
     <div class="form-group">
           <label for="cantidad">Cantidad:</label>
           <input type="number" id="cantidad" name="cantidad" step="0.01" required>
+=======
+  <div class="donation-registration">
+  <h2>Registro de Donaciones</h2>
+  <form id="donationForm">
+    <div class="form-group">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+    </div>
+    <div class="form-group">
+      <label for="correo">Correo:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="numero_telefono">Número de Teléfono:</label>
+      <input type="tel" id="numero_telefono" name="numero_telefono" required>
+    </div>
+    <div class="form-group">
+      <label for="cantidad">Cantidad:</label>
+      <input type="number" id="cantidad" name="cantidad" step="0.01" required>
+>>>>>>> e6e0b5ad315fcc9ec424b8e8ec128fa5c6649797
     </div>
     <div class="form-group">
       <label for="fecha_donacion">Fecha de Donación:</label>
       <input type="date" id="fecha_donacion" name="fecha_donacion">
     </div>
+<<<<<<< HEAD
     <button id="submitDonation">Generar Recibo</button>
   </div>
+=======
+    <button type="submit">Generar Recibo</button>
+  </form>
+</div>
+
+
+>>>>>>> e6e0b5ad315fcc9ec424b8e8ec128fa5c6649797
 
 
 

@@ -53,7 +53,11 @@ if (!isset($_SESSION["usuario"])) {
               <a href="donacion.php"> donacion</a>
               <a href="voluntario.php">volutario</a>
               <a href="proyectos.php">proyectos</a>
+<<<<<<< HEAD
               <a href="eventos.php">eventos</a>
+=======
+              <a href="#mision-section">eventos</a>
+>>>>>>> e6e0b5ad315fcc9ec424b8e8ec128fa5c6649797
             <!--  <a href="#colaboradores-section">accionista</a>-->
             </div>
           </li>
@@ -198,7 +202,30 @@ if (!isset($_SESSION["usuario"])) {
       </div>
     </section>
 
+<<<<<<< HEAD
 
+=======
+    <!--clientes comentarios
+    <section class="clientes contenedor">
+      <h2 class="titulo">Que dicen nuestros clientes</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="assets/imagenes/face1.jpg" alt="">
+          <div class="contenido-texto-card">
+            <h4>Name</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/imagenes/face2.jpg" alt="">
+          <div class="contenido-texto-card">
+            <h4>Name</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+          </div>
+        </div>
+      </div>
+    </section>-->
+>>>>>>> e6e0b5ad315fcc9ec424b8e8ec128fa5c6649797
 
 
     <section class="about-services">

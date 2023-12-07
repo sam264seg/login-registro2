@@ -8,7 +8,15 @@ $usuario = $_POST['usuario'];
 $contrasena = $_POST['contrasena'];
 
 
+<<<<<<< HEAD
 $query = "INSERT INTO usuarios(nombre_completo,email,usuario,contrasena) 
+=======
+<<<<<<< HEAD
+$query = "INSERT INTO usuarios(nombre_completo,email,usuario,contrasena) 
+=======
+$query = "INSERT INTO usuarios(nombre_completo,email,usuario, contrasena) 
+>>>>>>> d6d333c3d059e50f084fc91caa5b9e6cc0b58743
+>>>>>>> e6e0b5ad315fcc9ec424b8e8ec128fa5c6649797
          VALUES('$nombre_completo','$email','$usuario','$contrasena')";
 
 //verificacion de correo repetido en base de datos
@@ -46,16 +54,37 @@ alert("usuario alamacenado exitosamente");
 window.location = "../index.php";
 </script>
 ';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e6e0b5ad315fcc9ec424b8e8ec128fa5c6649797
 }
 else {
     echo '
 <script>
 alert("Intentalo nuevamente usuario no alamacenado. Error: '.mysqli_error($conexion).'");
+<<<<<<< HEAD
+=======
+=======
+} else {
+    echo '
+<script>
+alert("Intentalo nuevamente usuario no alamacenado");
+>>>>>>> d6d333c3d059e50f084fc91caa5b9e6cc0b58743
+>>>>>>> e6e0b5ad315fcc9ec424b8e8ec128fa5c6649797
 window.location = "../index.php";
 </script>
 ';
 }
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> d6d333c3d059e50f084fc91caa5b9e6cc0b58743
+>>>>>>> e6e0b5ad315fcc9ec424b8e8ec128fa5c6649797
 mysqli_close($conexion);
 ?>

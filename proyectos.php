@@ -10,6 +10,7 @@
 
     <div class="container">
         <!-- Creación de Proyectos y Asignación de Investigadores -->
+<<<<<<< HEAD
 
     <form action="php/crear_proyecto.php" method="POST" class="creacion_proyectos">
     <h2>Crear Proyecto de Investigación</h2>
@@ -31,6 +32,36 @@
 </form>
 
    <!-- seguimiento de proyectos-->
+=======
+        <form method="post" action="crear_proyecto.php">
+          <h2>Crear Proyecto de Investigación</h2>
+          <div class="form-group">
+            <label for="nombreProyecto">Nombre del Proyecto:</label>
+            <input type="text" id="nombreProyecto" name="nombre_proyecto" required>
+          </div>
+
+          <div class="form-group">
+            <label for="descripcionProyecto">Descripción:</label>
+            <textarea id="descripcionProyecto" name="descripcion_proyecto" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="agenciaFinanciacion">Agencia de Financiación:</label>
+            <input type="text" id="agenciaFinanciacion" name="agencia_financiacion">
+          </div>
+
+          <div class="form-group">
+            <h3>Asignar Investigadores</h3>
+            <label for="investigador">Investigador:</label>
+            <select id="investigador" name="investigador">
+              <!-- Opciones de investigadores cargadas dinámicamente -->
+            </select>
+          </div>
+
+          <button type="submit">Crear Proyecto</button>
+        </form>
+
+>>>>>>> e6e0b5ad315fcc9ec424b8e8ec128fa5c6649797
         <form method="post" action="seguimiento_proyecto.php">
           <h2>Seguimiento del Avance de Proyectos</h2>
           <div class="form-group">
