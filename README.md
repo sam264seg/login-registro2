@@ -2,9 +2,10 @@
 ### Esta pagina se basa en realizar proyectos en beneficio de la sociedad Panameña 
 
 ### Requisitos
--Xampp
+-Wampp o Xampp
 -Lenguaje de programación php 
 -IDE(visual studio code) opcional
+-Bases de datos Mysql (phpmyadmin)
 
 
 ## Barra de Navegación
