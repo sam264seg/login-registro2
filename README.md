@@ -9,29 +9,19 @@
 
 ### Instalación
 ![image](https://github.com/sam264seg/login-registro2/assets/125157739/8d26dfb6-92fc-40de-9a22-16eeb3b382a2)
+
 Abre XAMPP y asegúrate de seguir estos pasos:
 - Inicia XAMPP desde el menú de inicio o el acceso directo en tu escritorio.
 - En el panel de control de XAMPP, busca y asegúrate de que los servicios de Apache y MySQL estén marcados como "Running" o "Iniciado".
 
+## Almacenar el proyecto en el directorio de instalación XAMPP
+![image](https://github.com/sam264seg/login-registro2/assets/125157739/20c57e93-a5cc-4045-9489-8ec7b5f81cdf)
 
+## Para entrar al sistema desde la web utilizamos este URL 
+![image](https://github.com/sam264seg/login-registro2/assets/125157739/7561ffb9-1fdb-41e2-9874-63835a627bfc)
 
 ## Barra de Navegación
 Bienvenido al Manual de Usuario de la Barra de Navegación de la Asociación de Interés Público (AIP). Esta guía te ayudará a navegar por las diferentes secciones y opciones disponibles en la barra de navegación de nuestra plataforma.
-
-Contenido
-Inicio
-AIP
-Donación
-Voluntario
-Proyectos
-Eventos
-Noticias
-Denuncias
-Cerrar Sesión
-Contactos/Redes
-Inicio
-Para volver a la página de inicio, haz clic en "Inicio" en la barra de navegación. Esta sección puede contener información principal o novedades sobre la Asociación.
-
 AIP
 Al pasar el ratón sobre "AIP" en la barra de navegación, se desplegará un menú con las siguientes opciones:
 
