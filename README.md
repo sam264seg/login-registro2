@@ -20,7 +20,10 @@ Abre XAMPP y asegúrate de seguir estos pasos:
 ## Para entrar al sistema desde la web utilizamos este URL 
 ![image](https://github.com/sam264seg/login-registro2/assets/125157739/7561ffb9-1fdb-41e2-9874-63835a627bfc)
 
+
 ## Barra de Navegación
+![image](https://github.com/sam264seg/login-registro2/assets/125157739/b37e0b22-40dd-4d45-b5c2-380722a8e77d)
+
 Bienvenido al Manual de Usuario de la Barra de Navegación de la Asociación de Interés Público (AIP). Esta guía te ayudará a navegar por las diferentes secciones y opciones disponibles en la barra de navegación de nuestra plataforma.
 AIP
 Al pasar el ratón sobre "AIP" en la barra de navegación, se desplegará un menú con las siguientes opciones:
@@ -44,5 +47,9 @@ Si deseas cerrar tu sesión, haz clic en "Cerrar Sesión" para salir de tu cuent
 
 Contactos/Redes
 Para acceder a información de contacto o a nuestras redes sociales, selecciona "Contactos/Redes" en la barra de navegación.
+
+## Una demostracion de insercion de datos para la entidad Proyecto de investigación
+![image](https://github.com/sam264seg/login-registro2/assets/125157739/7b4d5f7a-45f5-448e-9eeb-b5d7368e3c0f)
+
 
 ¡Gracias por ser parte de la AIP y contribuir a nuestra misión! Si necesitas más ayuda o tienes alguna pregunta, no dudes en ponerte en contacto con nosotros. ¡Bienvenido a bordo!
