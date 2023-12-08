@@ -20,6 +20,14 @@ Abre XAMPP y asegúrate de seguir estos pasos:
 ## Para entrar al sistema desde la web utilizamos este URL 
 ![image](https://github.com/sam264seg/login-registro2/assets/125157739/7561ffb9-1fdb-41e2-9874-63835a627bfc)
 
+## Importar archivo backup en la herramiento phpmyadmin
+![image](https://github.com/sam264seg/login-registro2/assets/125157739/035240a7-9717-4a60-9995-77da2e97437b)
+
+![image](https://github.com/sam264seg/login-registro2/assets/125157739/0ef4205f-d3b2-4b7c-bae8-c3e1732d1cb9)
+
+![image](https://github.com/sam264seg/login-registro2/assets/125157739/bc5f3aab-715b-45d5-ba71-7b4d6d34a975)
+
+
 
 ## Barra de Navegación
 ![image](https://github.com/sam264seg/login-registro2/assets/125157739/b37e0b22-40dd-4d45-b5c2-380722a8e77d)
