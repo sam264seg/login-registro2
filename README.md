@@ -21,12 +21,17 @@ Abre XAMPP y asegúrate de seguir estos pasos:
 ![image](https://github.com/sam264seg/login-registro2/assets/125157739/7561ffb9-1fdb-41e2-9874-63835a627bfc)
 
 ## Importar archivo backup en la herramiento phpmyadmin
+Este es el nombre del archivo 
+![image](https://github.com/sam264seg/login-registro2/assets/125157739/8d3fdf08-0128-4bbc-9e31-84c644a53336)
+
+### paso 1
 ![image](https://github.com/sam264seg/login-registro2/assets/125157739/035240a7-9717-4a60-9995-77da2e97437b)
 
+### paso 2
 ![image](https://github.com/sam264seg/login-registro2/assets/125157739/0ef4205f-d3b2-4b7c-bae8-c3e1732d1cb9)
 
+### paso 3
 ![image](https://github.com/sam264seg/login-registro2/assets/125157739/bc5f3aab-715b-45d5-ba71-7b4d6d34a975)
-
 
 
 ## Barra de Navegación
