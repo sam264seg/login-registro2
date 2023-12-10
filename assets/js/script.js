@@ -1,4 +1,3 @@
-// Añade un manejador de eventos al hacer clic en el botón "btn_iniciar-sesion"
 document.getElementById("btn_iniciar-sesion").addEventListener("click", iniciarSesion);
 
 // Añade un manejador de eventos al hacer clic en el botón "btn_registrarse"
