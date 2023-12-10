@@ -1,0 +1,114 @@
+body {
+    background-image: url(../imagenes/portada.webp); /* Imagen de fondo */
+    background-size: cover; /* La imagen de fondo cubre todo el espacio disponible */
+    background-repeat: no-repeat; /* La imagen de fondo no se repite */
+    background-position: center; /* La imagen de fondo está centrada */
+    background-attachment: fixed; /* La imagen de fondo es fija en la ventana de visualización */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Tipo de fuente para el texto */
+    background-color: #333; /* Color de fondo oscuro */
+    color: #444; /* Color de texto gris claro */
+    padding: 20px;
+    line-height: 1.6;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Blanco difuminado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para dar profundidad */
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: rgba(248, 248, 248, 0.7); /* Fondo ligeramente gris y difuminado para los encabezados */
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.btn-regresar {
+    background-color: #dc3545;
+}
+
+.btn-regresar:hover {
+    background-color: #c82333;
+}
+
+.label-grande {
+    font-size: 25px; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Fuente en negrita */
+    background-color: rgba(0, 0, 0, 0.7); /* Color de fondo gris oscuro con transparencia */
+    padding: 20px 0; /* Espacio arriba y abajo dentro de la franja */
+    padding: 5px; /* Espacio dentro del elemento */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra opcional para dar profundidad */
+    display: inline-block; /* Hacer que el fondo solo rodee el texto */
+    color: white; /* Color de texto blanco para contraste */
+    width: 99.2%;
+    margin-bottom: 20px;
+}
+ 
+
+.titulo-tabla {
+    font-size: 30px; /* Ajusta el tamaño según tus preferencias */
+}
+
+.titulo-franja {
+    background-color: rgba(0, 0, 0, 0.7); /* Color de fondo gris oscuro con transparencia */
+    padding: 20px 0; /* Espacio arriba y abajo dentro de la franja */
+    width: 100%; /* Asegura que la franja ocupe todo el ancho de la pantalla */
+    text-align: center; /* Alinea el título al centro */
+    margin-left: auto; /* Alinea la franja a la izquierda */
+    margin-right: auto; /* Alinea la franja a la derecha */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra opcional para dar profundidad */
+}
+
+.titulo {
+    color: white; /* Color de texto blanco para contraste */
+    margin: 0; /* Elimina los márgenes predeterminados de h1 */
+    font-size: 30px; /* Tamaño de la fuente para el título */
+}

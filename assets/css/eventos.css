@@ -1,0 +1,63 @@
+body {
+    background-image: url(../imagenes/portada.webp); /* Imagen de fondo */
+    background-size: cover; /* La imagen de fondo cubre todo el espacio disponible */
+    background-repeat: no-repeat; /* La imagen de fondo no se repite */
+    background-position: center; /* La imagen de fondo está centrada */
+    background-attachment: fixed; /* La imagen de fondo es fija en la ventana de visualización */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Tipo de fuente para el texto */
+    background-color: #333; /* Color de fondo oscuro */
+    color: #444; /* Color de texto gris claro */
+  }
+/* Estilos generales del contenedor */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.8); /* Color de fondo con transparencia */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las etiquetas de los campos de formulario */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilos para los campos de texto, fecha, hora y áreas de texto */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los títulos de los formularios */
+h2 {
+    color: #333;
+    margin-top: 30px;
+}
+/* Estilos adicionales para personalizar */
+/* Puedes agregar más estilos personalizados aquí según tus necesidades */
+
+
+
+
